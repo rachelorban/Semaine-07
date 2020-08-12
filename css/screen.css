@@ -19,7 +19,7 @@ h2{
     font-family: poppins;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 50px;
 
 }
 h3{
@@ -27,26 +27,26 @@ h3{
     color:#8fcfd1;
     font-size: 50px;
     font-family: poppins;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 h4{
     background-color: white;
     color:#8fcfd1;
     font-size: 30px;
     font-family: poppins;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 h5{
     color:#f6ab6c;
     font-size: 40px;
     font-family: poppins;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 p{
     font-size: 24px;
     font-family: poppins;
-    margin-left: 36px;
+    margin-left: 56px;
 }
 
 
@@ -144,7 +144,7 @@ a:active {
     background-color:white;
     margin-top: 180px;
     margin-bottom: 150px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 10px;
     padding-top: 100px;
     padding-bottom: 200px;
@@ -153,6 +153,14 @@ a:active {
 
     
 
+}
+
+
+
+.textrach{
+    margin-left: 30px;
+    font-family: poppins;
+    font-size: 25px;
 }
 
 .image-intro{
@@ -220,7 +228,7 @@ a:active {
 
 
 .parcours-text{
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 40px;
     margin-bottom: 60px;
     padding-top: 40px;
@@ -257,40 +265,51 @@ a:active {
 }
 
 .margueritebalais{
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
 }
 
 .margueritebd{
-    width: 20%;
-    height: 20%;
+    width: 22%;
+    height: 22%;
+    margin-right: 7px;
+    margin-left: 7px;
 }
 
 .margueritecovid19{
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
+    margin-top: 30px;
 }
 
 
 .margueritecontent{
     width: 20%;
-    height: 20%
+    height: 20%;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .margueritetriste{
     width: 20%;
-    height: 20%
+    height: 20%;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 
 .margueritefache{
     width: 20%;
-    height: 20%
+    height: 20%;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .margueriteclindoeuil{
     width: 20%;
-    height: 20%
+    height: 20%;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 
