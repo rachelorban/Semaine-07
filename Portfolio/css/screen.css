@@ -1,0 +1,502 @@
+
+/*Astuce Controle F pour rechercher les styles*/
+
+
+
+body {
+    background-color:white;
+    width: 99%;
+}
+h1{
+    color:black;
+    font-size: 80px;
+    font-family: poppins;
+}
+h2{
+    background-color: white;
+    color:#df5e88;
+    font-size: 50px;
+    font-family: poppins;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+
+}
+h3{
+    background-color: white;
+    color:#8fcfd1;
+    font-size: 50px;
+    font-family: poppins;
+    margin-left: 30px;
+}
+h4{
+    background-color: white;
+    color:#8fcfd1;
+    font-size: 30px;
+    font-family: poppins;
+    margin-left: 30px;
+}
+h5{
+    color:#f6ab6c;
+    font-size: 40px;
+    font-family: poppins;
+    margin-left: 30px;
+}
+
+p{
+    font-size: 24px;
+    font-family: poppins;
+    margin-left: 36px;
+}
+
+
+
+
+
+
+
+/*Le menu*/
+
+.menu-main {
+    background-color:#8fcfd1 ;
+    font-size: 25px;
+    font-family: poppins;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    position: fixed;
+    width:100%;
+    
+    
+}
+    
+.menu-main li {
+    
+    text-decoration: none;
+    position: relative;
+    display: inline-block; 
+    padding-left: 11px;
+    margin-left: 90px;
+    z-index: 0;
+    
+    
+    
+}
+
+
+
+.menu-main a{
+    
+    text-decoration: none;
+    color:black;
+
+}
+
+.menu-main a:hover {
+    color: #f6efa6;
+}
+
+a:active {
+    color:#df5e88;
+}
+
+
+.content-logo{
+    
+    width: 100%;
+    
+}
+
+
+
+.logo{
+    width: 5%;
+    height: 5%;
+    z-index: 2;
+    float: left;
+}
+
+.logo2{
+    width: 5%;
+    height: 45%;
+    float: left;
+}
+
+
+
+
+
+
+/*main*/
+
+/*Intro*/
+
+.flex-container{
+    display:flex;
+}
+
+
+
+
+
+.rachel
+{
+    background-color:white;
+    margin-top: 180px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-right: 40px;
+    padding-left: 20px;
+
+    
+
+}
+
+.image-intro{
+    width: 800px;
+    height: 800px;
+    margin-top: 107px;
+    
+}
+
+
+/*Les Skills*/
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1.2fr 0.2fr;
+    gap: 1px 1px;
+    grid-template-areas: "infographie infographie imageclavier imageclavier" "logiciel logiciel2 imageclavier imageclavier" "informatique informatique imagenet imagenet" "informatique informatique imagenet imagenet";
+}
+
+.infographie { 
+    grid-area: infographie; 
+    background-color: white;
+    
+}
+
+.logiciel {
+    grid-area: logiciel; 
+    background-color:white;
+}
+
+.logiciel2 { 
+    grid-area: logiciel2; 
+    background-color: white;
+    padding-top: 110px;
+}
+
+.informatique { 
+    grid-area: informatique; 
+    background-color: white;
+}
+
+.imageclavier { 
+    grid-area: imageclavier; 
+    
+    width: 780px;
+}
+
+.imagenet { 
+    grid-area: imagenet; 
+    
+    width: 800px;
+}
+
+
+
+
+
+
+
+/*Parcours*/
+
+
+.parcours-text{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+
+
+/*Galerie*/
+
+
+
+
+
+
+
+
+.marguerite-text{
+    background-color:#f6efa6 ;
+    padding-top: 15px;
+    border-radius: 30px;
+
+
+}
+
+
+.marguerite{
+    width: 20%;
+    height: 20%;
+}
+
+.margueritebalais{
+    width: 20%;
+    height: 20%;
+}
+
+.margueritebd{
+    width: 20%;
+    height: 20%;
+}
+
+.margueritecovid19{
+    width: 20%;
+    height: 20%;
+}
+
+
+.margueritecontent{
+    width: 20%;
+    height: 20%
+}
+
+.margueritetriste{
+    width: 20%;
+    height: 20%
+}
+
+
+.margueritefache{
+    width: 20%;
+    height: 20%
+}
+
+.margueriteclindoeuil{
+    width: 20%;
+    height: 20%
+}
+
+
+
+
+
+
+
+
+
+
+.divers-text{
+    background-color:#8fcfd1 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+
+}
+
+
+.imageaqua{
+    width: 20%;
+    height: 20%
+}
+
+
+
+.imagepicto{
+    width: 20%;
+    height: 20%
+}
+
+.imageFfleur{
+    width: 20%;
+    height: 20%
+}
+
+
+
+.imagerobot{
+    width: 20%;
+    height: 20%
+}
+
+.imageh{
+    width: 20%;
+    height: 20%
+}
+
+.imagecoeur{
+    width: 20%;
+    height: 20%
+}
+
+.imagesortie{
+    width: 20%;
+    height: 20%
+}
+
+.imagecalendrier{
+    width: 20%;
+    height: 20%
+}
+
+
+
+
+
+
+/*partie contact avec formulaire*/
+
+.flex-container2{
+    display:flex;
+    flex-wrap: wrap;
+    /*justify-content: flex-start;*/
+}
+
+
+
+.formulaire{
+    background-color:#8fcfd1;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    
+}
+
+input [type=text] {
+    width: 20px;
+}
+
+
+
+input, textarea, select, button {
+    width : 520px;
+    height: 70px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border-color:#df5e88 ;
+    border-width:3px;
+    background-color:#f6efa6 ;
+    font-family: poppins;
+
+
+    -webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
+       -moz-box-sizing: border-box; /* Pour tous les navigateurs Gecko */
+            box-sizing: border-box;
+}
+
+
+
+textarea{
+    height: 270px;
+}
+
+
+
+
+
+
+
+.infoContact{
+    background-color:white;
+    margin-top: 130px;
+    
+}
+
+
+.inforach{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-family: poppins;
+    font-size: 36px;
+}
+
+
+
+.social-linkedin{
+    
+    margin-top: 20px;
+    
+}
+
+
+.fa-linkedin-in{
+    width: 70px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 40px;
+    color:#df5e88;
+}
+
+
+
+.fa-instagram{
+    width: 90px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 40px;
+    color: #df5e88;
+}
+
+
+/*Footer*/
+
+
+footer{
+    background-color: #f6efa6;
+    font-family: poppins;
+    font-size: 25px;
+}
+
+footer li {
+    
+    text-decoration: none;
+    position: relative;
+    display: inline-block; 
+    padding-left: 11px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-left: 90px;
+}
+
+
+footer a{
+    
+    text-decoration: none;
+    color:black;
+
+}
+
+footer a:hover {
+    color: #8fcfd1;
+
+
+}
+
+
+
+
+
+
