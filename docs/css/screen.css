@@ -140,7 +140,18 @@ a:active {
     align-self: center;
 }
 
+.grid-container0{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "rachel image-intro";
+}
 
+.rachel { grid-area: rachel; }
+
+.image-intro { grid-area: image-intro; }
+}
 
 
 
