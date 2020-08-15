@@ -76,13 +76,19 @@ p{
     position: relative;
     display: inline-block; 
     padding-left: 11px;
-    margin-left: 90px;
+    padding : 1px;
+    margin-left: 60px;
     padding-top: 25px;
     z-index: 0;
     
-    
-    
+
 }
+
+.menu-main ul {
+    margin-left: 1070px;
+}
+
+
 
 
 
@@ -105,6 +111,8 @@ a:active {
 .content-logo{
     
     width: 100%;
+    margin-right: 90px;
+    
     
 }
 
@@ -117,6 +125,8 @@ a:active {
     z-index: 2;
     float: left;
     padding-top: 5px;
+    margin-right: 20px;
+    
 }
 
 .logo2{
@@ -129,6 +139,26 @@ a:active {
 
 
 
+
+
+
+.ro{
+    
+    padding-top:48px ;
+    float: left;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+.ro a{
+    
+    text-decoration: none;
+    color:#f6efa6;
+    
+
+}
 
 
 /*main*/
@@ -161,6 +191,8 @@ a:active {
     padding-right: 10px;
     padding-left: 20px;
 }
+
+/*a cause de github page je dois faire 2 classes rachel   */
 
 .rachel{
 
@@ -195,7 +227,7 @@ background-color:white;
 .textrach{
     margin-left: 3px;
     font-family: poppins;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 
@@ -606,9 +638,15 @@ footer li {
     position: relative;
     display: inline-block; 
     padding-left: 11px;
-    padding-top: 45px;
+    padding-top: 55px;
     padding-bottom: 45px;
     margin-left: 90px;
+}
+
+
+.footer ul{
+    margin-left: 10px;
+    
 }
 
 
@@ -622,6 +660,24 @@ footer a{
 footer a:hover {
     color: #8fcfd1;
 
+
+}
+
+.ro2{
+    
+    padding-top:48px ;
+    float: left;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+.ro2 a{
+    
+    text-decoration: none;
+    color:#8fcfd1;
+    
 
 }
 
