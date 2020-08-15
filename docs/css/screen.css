@@ -148,14 +148,28 @@ a:active {
   grid-template-areas: "rachel image-intro";
 }
 
-.rachel { grid-area: rachel; }
+.rachel { grid-area: rachel; 
+    background-color:white;
+    margin-top: 180px;
+    margin-bottom: 150px;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
 
-.image-intro { grid-area: image-intro; }
+.image-intro { grid-area: image-intro; 
+    width: 920px;
+    height: 950px;
+    margin-top: 110px;
 }
 
 
 
-.rachel
+
+/*.rachel
 {
     background-color:white;
     margin-top: 180px;
@@ -168,7 +182,7 @@ a:active {
     padding-left: 20px;
     
 
-}
+}*/
 
 
 
@@ -178,12 +192,12 @@ a:active {
     font-size: 30px;
 }
 
-.image-intro{
+/*.image-intro{
     width: 920px;
     height: 950px;
     margin-top: 110px;
     
-}
+}*/
 
 
 /*Les Skills*/
