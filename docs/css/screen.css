@@ -137,8 +137,7 @@ a:active {
 
 .flex-container{
     display:flex;
-    
-    
+    align-self: center;
 }
 
 
